@@ -1,6 +1,0 @@
-Hello, QWALLITY team!
-This is a simple text file.
-I am testing Visual Studio Code.
-Each line contains a short sentence.
-Edited text in main branch (decided to leave info from main branch)
-Have a great day!
