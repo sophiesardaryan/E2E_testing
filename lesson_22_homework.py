@@ -41,13 +41,25 @@
 
 #4. Sort the list in ascending order.
 
-my_list = [8, 5, 3, 7]
+# my_list = [8, 5, 3, 7]
 
-for i in range(len(my_list)):
-    for j in range(0, len(my_list)-1):
-        if my_list[j] > my_list[j+1]:
-            temp = my_list[j]
-            my_list[j] = my_list[j + 1]
-            my_list[j + 1] = temp
+# for i in range(len(my_list)):
+#     for j in range(0, len(my_list)-1):
+#         if my_list[j] > my_list[j+1]:
+#             temp = my_list[j]
+#             my_list[j] = my_list[j + 1]
+#             my_list[j + 1] = temp
     
-print(my_list)
+# print(my_list)
+
+
+# my_list = [8, 5, 11, 29, 3, 7]
+
+# for i in range(len(my_list)):
+#     for j in range(0, len(my_list) -1):
+#         if my_list[j]> my_list[j+1]:
+#             my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
+
+# print(my_list)
+
+
