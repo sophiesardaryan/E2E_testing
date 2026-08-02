@@ -13,7 +13,7 @@
 # my_list = [1, 2, 3, 11, 8, 28, 5, 9, 33]
 
 # for i in range(0, len(my_list)):
-#     if i in (0, 4, 5):
+#     if i in (5, 4, 0):
 #         my_list.remove(my_list[i])
 # print(my_list)
 
@@ -29,10 +29,18 @@
 
 #3 Write a Python program to get the difference between the two lists.
 
-# set_1 = {1, 2, 3}
-# set_2 = {3, 4, 5}
-# set_diff = set_1 - set_2
-# print(f"Difference between two list is {set_diff}")
+# list_1 = [1, 2, 2, 3, 3]
+# list_2 = [3, 4, 5]
+# diff_list = []
+
+# for item in list_1:
+#     if item not in list_2:
+#         diff_list.append(item)
+# print(diff_list) #optimal solution
+
+
+# list_diff = list(set(list_1) - set(list_2))
+# print(f"Difference between two list is {list_diff}")
 
 # 4 Write a Python program to convert a tuple to a dictionary.
 
@@ -97,18 +105,18 @@
 # Add a new key called "email" with your email address. 
 # Print the updated dictionary.
 
-my_dictionary = {
-    "name" : "Sophie",
-    "age" : 34,
-    "address" : "Vanadzor",
-    "education" : "NPUA",
-    "phone_numbers" : ["041101264", "055101264"]
+# my_dictionary = {
+#     "name" : "Sophie",
+#     "age" : 34,
+#     "address" : "Vanadzor",
+#     "education" : "NPUA",
+#     "phone_numbers" : ["041101264", "055101264"]
 
-}
+# }
 
-print(my_dictionary)
-print(my_dictionary["name"])
-print(my_dictionary["phone_numbers"])
+# print(my_dictionary)
+# print(my_dictionary["name"])
+# print(my_dictionary["phone_numbers"])
 
-my_dictionary["email"] = "sofi.sardaryan.9191@gmail.com"
-print(my_dictionary)
+# my_dictionary["email"] = "sofi.sardaryan.9191@gmail.com"
+# print(my_dictionary)
