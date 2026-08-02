@@ -15,15 +15,15 @@
 # print(list(set(my_list)))
 
 #3. Create a dictionary to store information about a person (e.g., name, surname). Print each person info.
-import json
+# import json
 
-my_dict = {
-    "name" : "Sophie",
-    "surname" : "Sardaryan"
-}
+# my_dict = {
+#     "name" : "Sophie",
+#     "surname" : "Sardaryan"
+# }
 
 # my_dict = json.dumps(my_dict, indent=4)
 # print(my_dict)
 
-for key, value in my_dict.items():
-    print(" "* 4 + f"{key}: {value}")
+# for key, value in my_dict.items():
+#     print(" "* 4 + f"{key}: {value}")
