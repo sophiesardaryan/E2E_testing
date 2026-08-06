@@ -1,11 +1,6 @@
-from person import data
-
 def get_full_name(name, surname):
-    fullName = name + " " + surname
-    return fullName
+    return f"{name} {surname}"
 
-get_full_name(my_dict["name"],my_dict["surname"])
 
-def print_person(name, surname):
-    fullName = name + " " + surname
-    print(fullName)
+def print_person(my_name, my_surname):
+    print(f"The person's full name is:", get_full_name(my_name, my_surname))
